@@ -15,3 +15,7 @@ print(mylist3)
 # adding condition
 mylist4=[num**2 for num in range(0,10) if num%2==0]
 print(mylist4)
+
+celcious=[37,45,-31,67,98]
+farenheit=[(9/5*temp+32) for temp in celcious]
+print(farenheit)

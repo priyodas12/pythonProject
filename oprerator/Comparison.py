@@ -1,0 +1,8 @@
+print('Bool'=='bool')
+print(2.0==2)
+print(3!=3)
+print(3>=3)
+print(3<=3)
+print(1>2<3)
+print(1>2 and 3>=3)
+print(1>=2 or 3>=3)

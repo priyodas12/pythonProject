@@ -11,3 +11,7 @@ print(mylist2)
 # first num is for appending that number ,2nd is for iteration
 mylist3=[num**2 for num in range(0,10)]
 print(mylist3)
+
+# adding condition
+mylist4=[num**2 for num in range(0,10) if num%2==0]
+print(mylist4)
